@@ -8,10 +8,6 @@ import { GlobalContextProvider } from "./context/GlobalContext";
 
 function App() {
   return (
-    // <GCP>
-    //   <Header />
-    //   <Main />
-    // </GCP>
     <GlobalContextProvider>
       <Header />
       <Main />
